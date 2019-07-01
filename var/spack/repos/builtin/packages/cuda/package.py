@@ -58,7 +58,7 @@ class Cuda(Package):
             '--verbose',        # create verbose log file
             '--override',       # override compiler version checks
             '--toolkit',        # install CUDA Toolkit
-            '--tmpdir=/dev/shm' # /tmp is too small on UCL clusters
+            '--tmpdir=/dev/shm/ ' # /tmp is too small on UCL clusters
             '--toolkitpath=%s' % prefix
         )
 
